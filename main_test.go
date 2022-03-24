@@ -11,7 +11,7 @@ func TestFoo(t *testing.T) {
 
 func TestFoo2(t *testing.T) {
 	r := Foo(1, 20)
-	if r != 30 {
+	if r != 21 {
 		t.Errorf("bad answer")
 	}
 }
